@@ -12,7 +12,7 @@ const Skills: React.FC = () => {
       <div className="mt-2">
         {allSkills.map((skill) => (
           <div key={skill._id}>
-            <Heading level={4}>{skill.title}</Heading>
+            <Heading level={5}>{skill.title}</Heading>
             <Prose className="text-neutral-11" html={skill.body.html} />
           </div>
         ))}

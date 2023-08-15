@@ -284,17 +284,11 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Email:</Text>
-                <Text>
-                  <a href={`mailto:${personal.email}`}>{personal.email}</a>
-                </Text>
+                <Text>&nbsp;{personal.email}</Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Portfolio Website:</Text>
-                <Text>
-                  <a href="https://portfolio-khalithengineer.vercel.app/">
-                    https://portfolio-khalithengineer.vercel.app/
-                  </a>
-                </Text>
+                <Text>&nbsp;https://portfolio-khalithengineer.vercel.app/</Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
