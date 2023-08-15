@@ -22,7 +22,7 @@ export const Personal = defineDocumentType(() => ({
       required: true,
     },
     mobileNo: {
-      type: 'string',
+      type: 'number',
       description: 'Mobile no',
       required: true,
     },
