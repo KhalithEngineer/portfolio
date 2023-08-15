@@ -10,11 +10,6 @@ export const Personal = defineDocumentType(() => ({
       description: 'Your first name or given name',
       required: true,
     },
-    familyName: {
-      type: 'string',
-      description: 'Your last name or family name',
-      required: true,
-    },
     title: {
       type: 'string',
       description: 'Your current job title or a short description of your goal',
@@ -25,11 +20,6 @@ export const Personal = defineDocumentType(() => ({
       description:
         'Your general location of residence, not your personal address',
       required: true,
-    },
-    twitterUsername: {
-      type: 'string',
-      description: 'Your Twitter username without the "@" symbol',
-      required: false,
     },
   },
 }));
