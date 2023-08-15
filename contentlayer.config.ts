@@ -65,7 +65,7 @@ export const ProfessionalExperience = defineDocumentType(() => ({
 }));
 
 export const Achievement = defineDocumentType(() => ({
-  name: 'Achievement',
+  name: 'Education',
   filePathPattern: 'achievements/*.md',
   fields: {
     achievement: {
