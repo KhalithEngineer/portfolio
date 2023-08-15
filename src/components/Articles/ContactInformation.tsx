@@ -16,9 +16,9 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
 
       <ul className="mt-2">
         <li>
-          <strong>Mobile No:</strong> {personal.mobileNo}
+          <strong>Mobile No:</strong> +91{personal.mobileNo} <br />
           <strong>Email Me:</strong>{' '}
-          <a href={`mailto:${personal.email}`}>{personal.email}</a>
+          <a href={`mailto:${personal.email}`}>{personal.email}</a> <br />
           <strong>Location:</strong> {personal.location}
         </li>
 
