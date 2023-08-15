@@ -4,7 +4,7 @@ import {
   personal,
 } from '@content';
 
-export const fullName = `${personal.givenName} ${personal.familyName}`;
+export const fullName = `${personal.givenName}`;
 
 export const sortedProfessionalExperiences = allProfessionalExperiences.sort(
   (a, b) => {
