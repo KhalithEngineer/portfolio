@@ -278,6 +278,14 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
               </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Mobile:</Text>
+                <Text>&nbsp;{personal.mobileNo}</Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Email:</Text>
+                <Text>&nbsp;{personal.email}</Text>
+              </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
                   <Text style={styles.bold}>{privateField.label}:&nbsp;</Text>
@@ -293,13 +301,6 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               {allSkills.map((skill, skillIndex) => (
                 <View key={skill._id}>
                   <View style={styles.itemHeading}>
-                    <View style={styles.sectionHeadingStars}>
-                      {Array.from(Array(allSkills.length - skillIndex)).map(
-                        (star, starIndex) => (
-                          <Star key={starIndex} size={fontSizes.xxs} />
-                        ),
-                      )}
-                    </View>
                     <Text style={styles.bold}>{skill.title}</Text>
                   </View>
                   <Html {...htmlProps}>{skill.body.html}</Html>
