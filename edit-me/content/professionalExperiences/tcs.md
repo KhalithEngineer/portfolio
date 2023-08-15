@@ -10,14 +10,12 @@ Results-oriented Full Stack Python Developer with a strong foundation in web dev
 
 Key Skills:
 
-- Web Development: Proficient in developing web applications using the Flask framework, creating RESTful APIs, and ensuring seamless user experiences.
+- Data Scraping: Developed a web scraping solution using Selenium that collected real-time market data from multiple sources, resulting in a 30% reduction in manual data collection efforts.
 
-- Data Scraping and Preprocessing: Experienced in using Selenium for web scraping and Pandas for efficient data preprocessing, cleaning, and transformation.
-
-- Microservices Architecture: Skilled in designing and developing microservices using Python and Flask, incorporating RabbitMQ for reliable communication between services.
+- Data Preprocessing: Proficient in utilizing Pandas for efficient data preprocessing, cleaning, and transformation, ensuring high data quality for analysis and modeling.
 
 - Data Visualization: Utilizing Matplotlib library to create interactive charts and graphs for data visualization and insights.
 
-- Database Connectivity: Proficient in working with MySQL databases, establishing connections, and performing database operations using Pandas DataFrames.
+- Dashboard Creation: Skilled in developing interactive dashboards using the Dash library and Plotly, enabling insightful data visualization for informed decision-making.
 
-- Containerization: Experienced in containerizing applications using Docker for easier deployment, scalability, and management.
+- Workflow Automation: Employed a range of automation tools, including Python libraries like PyAutoGUI and Pywinauto, as well as the Automation Anywhere platform, to automate tasks across various contexts, achieving higher efficiency and accuracy.

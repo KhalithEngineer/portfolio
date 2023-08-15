@@ -5,21 +5,19 @@ startDate: September 2021
 ---
 
 Summary:
-Dynamic Software Engineer with a proven track record in crafting and maintaining robust, scalable software solutions utilizing an expansive technology stack. Proficient in Python, Django, Go Lang, and microservices architecture, with expertise in leading deployment strategies, optimizing performance, implementing monitoring solutions, and integrating OpenSearch for enhanced search capabilities. Adept at designing fault-tolerant data storage systems, caching mechanisms, and real-time event processing.
+Dynamic Software Engineer with a proven track record in crafting and maintaining robust, scalable software solutions utilizing an expansive technology stack. Proficient in Python, Django, Go Lang, and microservices architecture, with expertise in leading deployment strategies, optimizing performance, and implementing monitoring solutions. Adept at designing fault-tolerant data storage systems, caching mechanisms, and real-time event processing.
 
 Key Skills:
 
-- Full Stack Development: Proficient in developing end-to-end solutions using Python and Django for backend and frontend development.
+- Web Framework: Experienced in developing backend services using Django with Python and Atreugo with Golang.
 
-- Microservices Architecture: Experienced in building microservices-based applications in Go Lang, following industry best practices for scalability and maintainability.
+- Microservices Architecture: Proficient in developing microservices-based applications in Python and Golang, following industry best practices for scalability and maintainability. Experienced in deploying microservices architecture on Kubernetes and ECS for efficient management.
 
-- Deployment Strategies: Led the implementation of Docker and ECS deployment strategies, enhancing application deployment efficiency and ensuring consistent environments.
+- Monitoring and Alerting: Skilled in setting up comprehensive monitoring and alerting systems using AWS CloudWatch, reducing mean time to detect and resolve issues. Proficient in creating dashboards in Grafana, configuring Slack and email notifications for timely alerts. Also, experienced in developing Retool dashboards for internal applications to streamline data visualization and insights.
 
-- Monitoring and Alerting: Skilled in setting up comprehensive monitoring and alerting systems using AWS CloudWatch, reducing mean time to detect and resolve issues.
+- Concurrency and Performance: Developed resilient and scalable applications using Golang's efficient concurrency model and performance optimization techniques.
 
-- Concurrency and Performance: Developed resilient and scalable applications using Go Lang's efficient concurrency model and performance optimization techniques.
-
-- Data Storage Solutions: Designed and implemented highly scalable and fault-tolerant data storage solutions using DynamoDB.
+- Data Storage Solutions: Designed and implemented highly scalable and fault-tolerant data storage solutions using DynamoDB, MySQL, and PostgreSQL
 
 - Caching Mechanisms: Integrated Redis as a caching layer to optimize data access and improve application performance.
 

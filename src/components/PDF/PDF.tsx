@@ -276,9 +276,13 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
-                <Text>&nbsp;{personal.mobileNo}</Text>
-                <a href={`mailto:${personal.email}`}>{personal.email}</a>
                 <Text>&nbsp;{personal.location}</Text>
+                <br />
+                <Text style={styles.bold}>Contact No:</Text>
+                <Text>&nbsp;{personal.mobileNo}</Text>
+                <br />
+                <Text style={styles.bold}>Email Me:</Text>
+                <a href={`mailto:${personal.email}`}>{personal.email}</a>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
