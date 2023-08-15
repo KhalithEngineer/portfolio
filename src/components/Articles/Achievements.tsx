@@ -9,7 +9,7 @@ const Achievements: React.FC = () => {
     <article className="rounded-xl bg-neutral-3 py-12">
       <div className="container">
         <div className="flex justify-center text-center">
-          <SectionHeading icon={faMortarBoard} level={2} text="Achievements" />
+          <SectionHeading icon={faMortarBoard} level={2} text="Education" />
         </div>
 
         {sortedAchievements.map((achievement) => (
