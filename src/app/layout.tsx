@@ -48,7 +48,6 @@ export const generateMetadata = async (): Promise<Metadata> => {
     openGraph: {
       type: 'profile',
       firstName: personal.givenName,
-      lastName: personal.familyName,
       title,
       description,
       siteName,
