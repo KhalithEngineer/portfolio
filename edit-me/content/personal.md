@@ -2,7 +2,7 @@
 givenName: Mohamed Khalith
 title: Software Development Engineer
 location: Chennai, Tamil Nadu
-mobileNo: +917708877829
+mobileNo: `+917708877829`
 email: khalith.kasim@gmail.com
 ---
 
