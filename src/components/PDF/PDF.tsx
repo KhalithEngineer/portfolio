@@ -286,10 +286,6 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
                 <Text style={styles.bold}>Email:</Text>
                 <Text>&nbsp;{personal.email}</Text>
               </View>
-              <View style={styles.flexRow}>
-                <Text style={styles.bold}>Portfolio Website:</Text>
-                <Text>&nbsp;https://portfolio-khalithengineer.vercel.app/</Text>
-              </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
                   <Text style={styles.bold}>{privateField.label}:&nbsp;</Text>
