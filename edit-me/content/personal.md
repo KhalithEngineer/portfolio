@@ -1,9 +1,7 @@
 ---
-givenName: Colin
-familyName: Hemphill
-title: Official Job Title
-location: Austin, TX
-twitterUsername: colin_hemphill
+givenName: Mohamed Khalith
+title: Software Development Engineerr
+location: Chennai, Tamil Nadu
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices in iaculis nunc sed augue lacus viverra vitae congue. Neque viverra [justo nec ultrices](#). Urna nunc id cursus metus aliquam eleifend mi in nulla. Proin sagittis nisl rhoncus mattis rhoncus urna neque viverra.
+Hey there, I'm a tech enthusiast and Software Engineer. I'm all about Python, Django, GoLang, microservices, and Pulsar. I thrive on optimizing performance, deploying smartly, and adding OpenSearch and Pulsar magic. I've tackled microservices migration and am pumped to discover more tech adventures.
