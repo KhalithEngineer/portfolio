@@ -16,6 +16,8 @@ export const ContactInformation: React.FC<ContactInformationProps> = ({
 
       <ul className="mt-2">
         <li>
+          <strong>Mobile No:</strong> {personal.mobileNo}
+          <strong>Email Me:</strong> {personal.email}
           <strong>Location:</strong> {personal.location}
         </li>
 
