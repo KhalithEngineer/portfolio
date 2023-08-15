@@ -253,7 +253,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
 
   return (
     // @ts-ignore
-    <Document author={fullName} title={`Resume for ${fullName}, ${year}`}>
+    <Document author={fullName} title={`Résume for ${fullName}, ${year}`}>
       {/* @ts-ignore */}
       <Page size="LETTER" style={styles.page}>
         <View style={styles.sidebar}>
@@ -277,12 +277,6 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.location}</Text>
-                <br />
-                <Text style={styles.bold}>Contact No:</Text>
-                <Text>&nbsp;{personal.mobileNo}</Text>
-                <br />
-                <Text style={styles.bold}>Email Me:</Text>
-                <a href={`mailto:${personal.email}`}>{personal.email}</a>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
@@ -299,6 +293,13 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               {allSkills.map((skill, skillIndex) => (
                 <View key={skill._id}>
                   <View style={styles.itemHeading}>
+                    <View style={styles.sectionHeadingStars}>
+                      {Array.from(Array(allSkills.length - skillIndex)).map(
+                        (star, starIndex) => (
+                          <Star key={starIndex} size={fontSizes.xxs} />
+                        ),
+                      )}
+                    </View>
                     <Text style={styles.bold}>{skill.title}</Text>
                   </View>
                   <Html {...htmlProps}>{skill.body.html}</Html>
