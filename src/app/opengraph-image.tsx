@@ -45,7 +45,7 @@ export default async function og() {
             }}
             tw="text-6xl"
           >
-            Professional Résumé
+            Portfolio
           </div>
           <div
             style={{ color: getAccentColor(12, theme) }}
