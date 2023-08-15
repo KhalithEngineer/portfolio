@@ -277,7 +277,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Location:</Text>
                 <Text>&nbsp;{personal.mobileNo}</Text>
-                <Text>&nbsp;{personal.email}</Text>
+                <a href={`mailto:${personal.email}`}>{personal.email}</a>
                 <Text>&nbsp;{personal.location}</Text>
               </View>
               {privateInformation?.map((privateField) => (
