@@ -253,7 +253,7 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
 
   return (
     // @ts-ignore
-    <Document author={fullName} title={`Résume for ${fullName}, ${year}`}>
+    <Document author={fullName} title={`Resume for ${fullName}, ${year}`}>
       {/* @ts-ignore */}
       <Page size="LETTER" style={styles.page}>
         <View style={styles.sidebar}>
@@ -280,11 +280,21 @@ const PDF: React.FC<PDFProps> = ({ privateInformation }) => {
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Mobile:</Text>
-                <Text>&nbsp;{personal.mobileNo}</Text>
+                <Text>&nbsp;+91 {personal.mobileNo}</Text>
               </View>
               <View style={styles.flexRow}>
                 <Text style={styles.bold}>Email:</Text>
-                <Text>&nbsp;{personal.email}</Text>
+                <Text>
+                  <a href={`mailto:${personal.email}`}>{personal.email}</a>
+                </Text>
+              </View>
+              <View style={styles.flexRow}>
+                <Text style={styles.bold}>Portfolio Website:</Text>
+                <Text>
+                  <a href="https://portfolio-khalithengineer.vercel.app/">
+                    https://portfolio-khalithengineer.vercel.app/
+                  </a>
+                </Text>
               </View>
               {privateInformation?.map((privateField) => (
                 <View key={privateField._id}>
